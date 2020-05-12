@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 int maxdivisor(int a, int b) //GCD
 {
 	if (a && b)
@@ -21,6 +21,5 @@ int main()
 	int i, j;
 	scanf("%d%d", &i, &j);
 	printf("%d\n", maxdivisor(i, j));
-	system("pause>echo off && del echo");
 	return 0;
 }
